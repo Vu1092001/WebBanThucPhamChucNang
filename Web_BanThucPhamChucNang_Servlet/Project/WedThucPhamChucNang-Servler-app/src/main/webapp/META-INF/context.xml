@@ -1,0 +1,9 @@
+<Context>
+	<Resource name="jdbc/WedThucPhamChucNang-Servler-app"
+	auth="Container" type="javax.sql.DataSource"
+		maxActive="20" maxIdle="2" maxWait="10000"
+		username="sa" password="sapassword"
+		driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+		url="jdbc:sqlserver://localhost:1433;databaseName=SANPHAM"
+	/>
+</Context>
